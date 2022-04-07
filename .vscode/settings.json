@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "module.h": "c",
+        "fs.h": "c",
+        "stat.h": "c",
+        "time.h": "c",
+        "cache.h": "c",
+        "cputype.h": "c",
+        "sysreg.h": "c",
+        "gpr-num.h": "c",
+        "alternative.h": "c",
+        "alternative-macros.h": "c",
+        "insn-def.h": "c"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.16.0-kali6-common/arch/arm64/include/",
+                "/usr/src/linux-headers-5.16.0-kali6-common/arch/x86/include/",
+                "/usr/src/linux-headers-5.16.0-kali6-common/include/"                
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64",
+            "browse": {
+                "path": [                 
+                                   
+                                    
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
