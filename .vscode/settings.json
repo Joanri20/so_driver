@@ -10,6 +10,7 @@
         "gpr-num.h": "c",
         "alternative.h": "c",
         "alternative-macros.h": "c",
-        "insn-def.h": "c"
+        "insn-def.h": "c",
+        "*.tcc": "c"
     }
 }

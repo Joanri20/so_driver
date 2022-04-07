@@ -35,7 +35,7 @@ static int driverdrlr_close(struct inode *i, struct file *f)
 static ssize_t driverdrlr_read(struct file *f, char __user *buf, size_t  len, loff_t *off)
 {
     int retval = 0;
-    char charArray[255] = "Hello World !\0";
+    char charArray[255] = "Hola SO !\0";
 
     if (copy_to_user(buf, charArray, 15)) {         
         printk(KERN_INFO "Driver DrLr: read() - copy_to_user() fail\n"); 
